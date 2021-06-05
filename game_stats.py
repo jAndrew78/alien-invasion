@@ -1,7 +1,3 @@
-
-
-
-
 class GameStats():
 	'''TRACK STATS'''
 	def __init__(self, settings):

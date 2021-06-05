@@ -1,16 +1,13 @@
-
-
-
 import sys
 
 import pygame
 from pygame.sprite import Group
 
-from xsettings import Settings
-from xgame_stats import GameStats
-from xship import Ship
-from xalien import Alien
-import xgame_functions as gf
+from settings import Settings
+from game_stats import GameStats
+from ship import Ship
+from alien import Alien
+import game_functions as gf
 
 def run_game():
 	#INITIALIZE PYGAME, SETTINGS, SCREEN OBJECT

@@ -1,6 +1,3 @@
-
-
-
 class Settings():
 	'''STORE ALL SETTINGS FOR ALIEN INVASION X'''
 	

@@ -1,13 +1,10 @@
-
-
-
 import sys
 from time import sleep
 
 import pygame
 
-from xbullet import Bullet
-from xalien import Alien
+from bullet import Bullet
+from alien import Alien
 
 
 def check_keydown_events(event, settings, screen, ship, bullets):

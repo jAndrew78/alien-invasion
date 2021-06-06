@@ -84,6 +84,7 @@ def check_bullet_alien_collisions(settings, screen, ship,
 	if len(aliens) == 0: 
 		#REMOVE EXISTING BULLETS, CREATE NEW FLEET
 		bullets.empty()
+		ship.reset_ship()
 		create_fleet(settings, screen, ship, aliens)
 
 def fire_laser(settings, screen, ship, lasers):
@@ -116,6 +117,7 @@ def check_laser_alien_collisions(settings, screen, ship,
 	if len(aliens) == 0: 
 		#REMOVE EXISTING LASERS, CREATE NEW FLEET
 		lasers.empty()
+		ship.reset_ship()
 		create_fleet(settings, screen, ship, aliens)
 
 def get_number_aliens_x(settings, alien_width):

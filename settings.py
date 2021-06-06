@@ -9,7 +9,8 @@ class Settings():
 		self.bg_color = (25,0,50)
 		
 		#SHIP SETTINGS
-		self.ship_speed_factor = .8
+		self.ship_speed_factorx = 1.6
+		self.ship_speed_factory = .8
 		self.ship_limit = 3
 		
 		#ALIEN SETTINGS

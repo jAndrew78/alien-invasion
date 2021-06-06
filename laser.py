@@ -31,8 +31,8 @@ class Laser(Sprite):
 		#UPDATE RECT POS
 		self.rect.y = self.y
 		#AUTO FIRE MODE
-		while self.firing:
-			for laser in laser.sprites():
+		if self.firing:
+			for laser in self.sprites():
 				laser.draw_laser()
 		
 	def draw_laser(self):

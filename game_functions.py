@@ -183,7 +183,7 @@ def ship_hit(settings, stats, screen, ship, aliens, bullets, lasers):
 		bullets.empty()
 		lasers.empty()
 		create_fleet(settings, screen, ship, aliens)
-		ship.center_ship()
+		ship.reset_ship()
 		sleep(0.5)
 	
 	else:

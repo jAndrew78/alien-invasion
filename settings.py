@@ -24,3 +24,10 @@ class Settings():
 		self.bullet_height = 5
 		self.bullet_color = 60, 60, 60
 		self.bullets_allowed = 50
+		
+		#LASER SETTINGS
+		self.laser_speed_factor = 10
+		self.laser_width = 3
+		self.laser_height = 15
+		self.laser_color = 25, 250, 150
+		self.lasers_allowed = 5

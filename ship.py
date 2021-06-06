@@ -5,12 +5,12 @@ class Ship():
 		'''INITIALIZE SHIP AND SET STARTING POS'''
 		self.screen = screen
 		self.settings = settings
+
 		#LOAD SHIP IMAGE AND GET ITS RECT
 		self.image = pygame.image.load('images/ship_neo.png')
 		self.rect = self.image.get_rect()
 		self.screen_rect = screen.get_rect()
 		
-			
 		#START NEW SHIP AT BOTTOM CENTER
 		self.rect.centerx = self.screen_rect.centerx
 		self.rect.bottom = self.screen_rect.bottom

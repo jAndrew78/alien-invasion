@@ -15,7 +15,7 @@ def run_game():
 	settings = Settings()
 	screen = pygame.display.set_mode(
 		(settings.screen_width, settings.screen_height))
-	pygame.display.set_caption("xAlien Invasion")
+	pygame.display.set_caption("Alien Invasion")
 	
 	#CREATE AN INSTANCE TO STORE GAME STATS
 	stats = GameStats(settings)
